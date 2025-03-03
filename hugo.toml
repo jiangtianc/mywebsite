@@ -1,9 +1,9 @@
-baseURL = 'https://pehtheme-hugo.netlify.app/'
+baseURL = "https://jiangtianc.github.io/website1/"
 languageCode = 'en-us'
 title = 'Pehtheme'
 theme = 'pehtheme'
 
-paginate = '6' # <- Set the desired number of posts per page 
+pagination.pagerSize = '6' # <- Set the desired number of posts per page 
 summaryLength = '20' # <- 20 words are approximately 160 characters
 googleAnalytics = 'G-MEASUREMENT_ID' # <- Your GA-4
 disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.com
@@ -12,9 +12,8 @@ disqusShortname = 'your-disqus-shortname' # <- Get form here : https://disqus.co
 	# Meta description, not exceeding 160 characters, used for the meta description within the HTML head
 	description = 'Pehtheme Hugo Lite: A minimalist Hugo theme, built with TailwindCSS, for efficient performance and minimalism.'
 	mainSections = 'posts'
-
-[author]
-	name = 'Anthony Arphan'
+	
+	author = 'Anthony Arphan'
 	bio = 'Debitis assumenda esse dignissimos aperiam delectus maxime tenetur repudiandae dolore'
 	avatar = '/images/nasa-astronaut-unsplash.jpg'
 	twitter = 'https://twitter.com/insertapps'
